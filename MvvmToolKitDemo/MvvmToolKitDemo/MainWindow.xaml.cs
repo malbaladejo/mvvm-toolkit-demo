@@ -11,7 +11,7 @@ namespace MvvmToolKitDemo
 		{
 			InitializeComponent();
 
-			this.DataContext = new MainViewModel();
+			this.DataContext = new OtherMainViewModel();
 		}
 	}
 }

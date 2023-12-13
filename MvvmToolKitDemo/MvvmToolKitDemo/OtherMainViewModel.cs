@@ -3,7 +3,8 @@ using CommunityToolkit.Mvvm.Input;
 
 namespace MvvmToolKitDemo
 {
-	internal partial class MainViewModel : ObservableObject
+	[INotifyPropertyChanged]
+	internal partial class OtherMainViewModel : OtherViewModel
 	{
 		[ObservableProperty]
 		[NotifyPropertyChangedFor(nameof(Total))]
